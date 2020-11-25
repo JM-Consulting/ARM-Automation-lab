@@ -36,7 +36,7 @@ jobs:
         with:
           inlineScript: |
             az deployment group create \
-          --name vmdeploymenttest \
-          --resource-group jabsautomatelab \
-          --template-file ARM_Templates/basicvm2020.json \
-          --parameters ARM_Templates/@basicvm2020.parameters.json
+            --name vmdeploymenttest \
+            --resource-group jabsautomatelab \
+            --template-file ARM_Templates/basicvm2020.json \
+            --parameters ARM_Templates/@basicvm2020.parameters.json
