@@ -3,19 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccountName": {
-            "value": "tesjstcacc1"
+            "value": "tesjstcacc2"
         },
         "VMname": {
-            "value": "vmjlb2020test1" 
+            "value": "vmjlb2020test2" 
         },
         "ResourceTags": {
             "value": {
-                "env": "jabslab2020test1",
+                "env": "jabslab2020test2",
                 "owner": "Jabed"
             }
         },
         "pipname": {
-            "value": "jabslab2020test1" 
+            "value": "jabslab2020test2" 
         },
         "vmusername": {
             "value": "Adminjabs1" 
