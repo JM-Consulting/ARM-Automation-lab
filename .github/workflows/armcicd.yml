@@ -38,5 +38,5 @@ jobs:
             az deployment group create \
           --name vmdeploymenttest \
           --resource-group jabsautomatelab \
-          --Template-file ARM_Templates/basicvm2020.json \
+          --template-file ARM_Templates/basicvm2020.json \
           --parameters ARM_Templates/@basicvm2020.parameters.json
