@@ -1,0 +1,59 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageAccountName": {
+            "value": "tesjstcacc1"
+        },
+        "VMname": {
+            "value": "vmjlb2020test1" 
+        },
+        "ResourceTags": {
+            "value": {
+                "env": "jabslab2020test1",
+                "owner": "Jabed"
+            }
+        },
+        "pipname": {
+            "value": "jabslab2020test1" 
+        },
+        "vmusername": {
+            "value": "Adminjabs1" 
+        },
+        "dnsname": {
+            "value": "demodeployjabs3"
+        },
+        "nsgName": {
+            "value": "nsgjabslab2020test1" 
+        },
+        "vnetName": {
+            "value": "vnetjabslab2020test1" 
+        },
+        "subnetName": {
+            "value": "subjabslab2020test1" 
+        },
+        "nicName": {
+            "value": "nic1jabslabs2020test1" 
+        },
+        "osDiskname": {
+            "value": "jabslab2020testbootdisk1"
+        },
+        "vmSize": {
+            "value": "Standard_A2_v2"
+        },
+        "vnetPrefix": {
+            "value": "10.0.0.0/16"
+        },
+        "vnetsubPrefix": {
+            "value": "10.0.0.0/24" 
+        },
+        "vmpass": {
+            "reference": {
+                "keyVault": {
+                "id": "/subscriptions/9f4cfd0b-92b1-440f-93fd-31cf9283fac2/resourceGroups/jabsautomatelab/providers/Microsoft.KeyVault/vaults/jabskeyvault"
+                },
+             "secretName": "vmpassword"       
+            }
+        }
+    }
+}
