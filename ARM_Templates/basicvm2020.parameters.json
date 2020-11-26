@@ -3,40 +3,40 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccountName": {
-            "value": "tesjstcacc2"
+            "value": "tesjstcacc4"
         },
         "VMname": {
-            "value": "vmjlb2020test2" 
+            "value": "vmjlb2020test4" 
         },
         "ResourceTags": {
             "value": {
-                "env": "jabslab2020test2",
+                "env": "jabslab2020test4",
                 "owner": "Jabed"
             }
         },
         "pipname": {
-            "value": "jabslab2020test2" 
+            "value": "jabslab2020test4" 
         },
         "vmusername": {
             "value": "Adminjabs1" 
         },
         "dnsname": {
-            "value": "demodeployjabs3"
+            "value": "demodeployjabs4"
         },
         "nsgName": {
-            "value": "nsgjabslab2020test1" 
+            "value": "nsgjabslab2020test4" 
         },
         "vnetName": {
-            "value": "vnetjabslab2020test1" 
+            "value": "vnetjabslab2020test4" 
         },
         "subnetName": {
-            "value": "subjabslab2020test1" 
+            "value": "subjabslab2020test4" 
         },
         "nicName": {
-            "value": "nic1jabslabs2020test1" 
+            "value": "nic1jabslabs2020test4" 
         },
         "osDiskname": {
-            "value": "jabslab2020testbootdisk1"
+            "value": "jabslab2020testbootdisk4"
         },
         "vmSize": {
             "value": "Standard_A2_v2"
